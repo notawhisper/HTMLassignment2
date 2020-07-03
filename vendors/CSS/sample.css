@@ -1,0 +1,138 @@
+html {
+  position: relative;
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+.content_wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 5rem;
+  min-height: 100%;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  background-color:rgb(63, 64, 75);
+  height: 4.5rem;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding-top: 1rem;
+
+}
+
+header li {
+  list-style: none;
+}
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left {
+  float: left;
+  padding-left: 4rem;
+}
+
+.right {
+  float: right;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+/* ここまでがheader部分の実装 */
+.achieve_wrapper {
+  text-align: center;
+}
+
+.main-header img {
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  height: 8rem;
+  margin-top: 15%;
+}
+
+.about {
+/* About Achieve部分の実装 */
+  line-height: 1.5rem;
+}
+
+.about h1 {
+  margin-top: 2rem;
+}
+
+.about p {
+  margin: 2rem auto;
+}
+/* ここから */
+.function {
+  background-color: rgb(200, 200, 200);
+  padding-top: 3rem;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.function-images {
+  text-align: center;
+}
+
+.function-image {
+  display: inline-block;
+  margin: 3rem;
+  margin-bottom: 10rem;
+}
+
+.function-image img {
+  height: 8rem;
+  width: 8rem;
+}
+
+#girls {
+  width: 6rem;
+}
+
+
+
+/* ここまでがfunction部分の実装 */
+footer {
+/* footer部分の実装 */
+  width: 100%;
+  background-color: rgb(38, 58, 79);
+  height: 5rem;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-top: 1rem;
+
+}
+
+.copyright_wrapper {
+  margin-top: 1.5rem;
+  line-height: 0.8rem;
+}
+
+footer p {
+  /*chromeの場合font-sizeでは10px以下のフォントサイズが10pxとして表示されるため*/
+  transform: scale(0.8);
+}
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
